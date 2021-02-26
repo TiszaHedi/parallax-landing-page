@@ -1,0 +1,96 @@
+
+/**
+ * OVERVIEW
+ *
+ * The project is divided into separate style sheets:
+ *
+ * bootstrap.css............CSS rules that control the layout of the website.
+ * ekko-lightbox.css.......Gallery css.
+ * base.css..............Global rules and helpers.
+ * components.css........The CSS of components that build up the site.
+ */
+
+
+/**
+ * TABLE OF CONTENTS
+ *
+ * SETTINGS
+ * Variables............Globally-available variables.
+ * Base font-size.......Declaration of the base font-size.
+ * Margins..............Global values of top and bottom margins.
+ *
+ * TYPOGRAPHY
+ * Headings, links and buttons............Typography styles.
+ */
+
+
+
+
+
+
+/*------------------------------------*\
+  #VARIABLES
+\*------------------------------------*/ 
+
+:root {
+  --primary-color:   #E16389;
+  --secondary-color: #FAA5C2;
+  --tertiary-color:  #F5F5F5;
+ }
+
+
+
+
+
+/*------------------------------------*\
+  #MARGINS
+\*------------------------------------*/ 
+
+h1, h2, h3, h4 { margin-bottom: 2rem; }
+
+
+
+
+
+/*------------------------------------*\
+  #TYPOGRAPHY
+\*------------------------------------*/
+
+body {
+  font-family: 'Gothic A1', sans-serif;
+  line-height:  2;
+  font-size:    .875rem;
+}
+
+h1, h2, h3, h4, 
+nav {
+  font-family: 'Playfair Display', serif;
+}
+
+
+h1 { font-size:        2.5rem; }
+
+h2 { font-size:        1.875rem; }
+
+h3 { font-size:        1.5625rem; }
+
+h4 { font-size:        1rem; }
+
+
+blockquote {font-size: .625rem; }
+
+
+@media (min-width: 768px) {
+
+  h1 { font-size:        4.375rem; }
+
+  h2 { font-size:        2.5rem; }
+
+  h3 { font-size:        1.875rem; }
+
+  h4 { font-size:        1.5625rem; }
+
+
+  blockquote {font-size: 0.9375rem;}
+
+}
